@@ -1,12 +1,12 @@
 import {LinkIcon} from '@sanity/icons'
 import {FieldPresence} from '@sanity/base/presence'
-import ValidationStatus from 'part:@sanity/components/validation/status'
 import React from 'react'
 import {Badge, Box, Card, Flex} from '@sanity/ui'
 import Preview from '../../../Preview'
 import {ConfirmDeleteButton} from '../ConfirmDeleteButton'
 import {IntentButton} from '../../../transitional/IntentButton'
 
+import {ValidationStatus} from '../../../transitional/ValidationStatus'
 import {DragHandle} from './DragHandle'
 import {ItemWithMissingType} from './ItemWithMissingType'
 import {ItemLayoutProps} from './ItemLayoutProps'
